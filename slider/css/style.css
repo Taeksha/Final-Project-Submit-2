@@ -1,0 +1,561 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header1
+{
+    width: 100%;
+    height: 40px;
+    background-color: #c30047;
+}
+.header1 .main
+{
+    width: 80%;
+    height:40px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main ul
+{
+    display: flex;
+}
+.main .contact li
+{
+    padding: 0px 10px;
+    font-size: 15px;
+    list-style: none;
+    color: white;
+}
+.main .media li
+{
+    padding: 0px 10px;
+    font-size: 22px;
+    list-style: none;
+    color: white;
+}
+.header2
+{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+.header2 .main
+{
+    width: 80%;
+    height:80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    height: 80px; 
+    width: 200px;
+    line-height: 80px;
+}
+.logo img
+{
+    width: 100%;   
+}
+.main .menu li
+{
+    padding: 16px 30px;
+    font-size: 15px;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main .menu button
+{
+    padding: 20px 40px;
+    border-radius: 30px;
+    background-color: #c30047;
+    color: white;
+    border: #c30047;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+ 
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+.lax h1 
+{
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  font-size: 60px;
+  color: white;
+ 
+  
+}
+.lax p
+{
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  font-size: 20px;
+  color: white;
+  border: none;
+  
+}
+
+.yoy h1 
+{
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  font-size: 60px;
+  color: white;  
+}
+.yoy p
+{
+  position: absolute;
+  top: 45%;
+  left: 70%;
+  font-size: 20px;
+  color: white;
+}
+
+
+
+.ww button
+{
+  background-color: crimson;
+  font-size: 20px;
+  border-radius: 70px;
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  color: white;
+  padding: 20px 50px;
+  border: none;
+ 
+}
+.bb button
+{
+  background-color: crimson;
+  font-size: 20px;
+  border-radius: 70px;
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  color: white;
+  padding: 20px 50px;
+  border: none;
+}
+ button:hover
+{
+    background-color: #c30047;
+}
+
+
+
+.first h1
+{
+    color: black;
+    text-align: center;
+    padding: 80px 0px;
+    font-size: 40px;
+}
+.help
+{
+    width: 70%;
+    margin: auto;
+
+}
+.img
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tr
+{
+    height: 300px;
+    width: 425px;
+    
+}
+.tr h1
+{
+    padding: 20px 0px;
+    text-align: left;
+}
+.tr p
+{
+    padding: 10px 0px 20px 10px;
+}
+.tr button
+{
+    padding: 15px 35px;
+    background-color: #c30047;
+    border-radius: 30px;
+    border: 1px solid #c30047;
+    color: white;
+}
+.tr button:hover
+{
+    background-color: #ff6378;
+    border: #ff6378;
+}
+.second
+{
+    width: 100%;
+    height: 650px;
+    background-color:#f7f0f1;
+    
+}
+.support
+{
+    padding: 55px 0px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+   
+}
+.intro 
+{
+    width: 45%;
+}
+.support .img
+{
+    width: 45%;
+}
+.intro h1{
+    text-align: left;
+    font-size: 50px;
+}
+.intro .normal
+{
+    font-size: 22px;
+    line-height: 30px;
+
+}
+.intro .special
+{
+    padding-top:20px;
+    font-size: 20px;
+    line-height: 30px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.subinfo
+{
+    display: flex;
+    align-items: center;
+ 
+}
+
+
+.info
+{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(237,87,112);
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.subinfo img
+{
+    height: 80px;
+}
+.subinfo  li h1
+{
+    font-size: 50px;
+
+}
+
+ 
+.subinfo  li
+{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+}
+
+.subinfo img
+{
+
+    height: 80px;
+    width: 80px;
+    color: black;
+    padding-top: 20px;
+}
+.third
+{
+    width:70%;
+    margin: auto;
+
+}
+.third h1
+{
+    text-align: center;
+    color: black;
+    padding-top: 80px;
+    font-size: 40px;
+}
+.third p
+{
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.service
+{
+    width: 70%;
+    margin: auto;
+}
+.serve
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ct
+{
+    height: 300px;
+    width: 425px;
+    
+}
+.box1
+{
+    padding:50px 30px 5px;
+    height: 460px;
+    
+    
+}
+.post
+{
+    text-align: center;
+}
+.ct h2
+{
+    text-align: center;
+    padding-top: 20px;
+}
+.ct p
+{
+    padding: 50px 0px 20px 10px;
+    text-align: center;
+}
+.case
+{
+    width: 100%;
+    position: relative;
+    height: 600px;
+}
+.case img
+{
+    width: 100%;
+    height: 600px;
+}
+.subcase
+{
+    height: 450px;
+    width: 650px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 73%;
+}
+.sub
+{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.subcase h1
+{
+    padding: 50px 20px 30px 0px;
+    font-size: 45px;
+    
+}
+.subcase .sedac
+{
+    padding: 20px 0px 15px 0px;
+    font-size: 18px;
+    color: gray;
+}
+.sub .odio
+{
+    padding: 20px 0px 40px  0px;
+    font-size: 18px;
+    color: gray;
+
+}
+.sub button
+{
+    padding: 20px 35px;
+    background-color: #c30047;
+    border-radius: 30px;
+    border: 1px solid #c30047;
+    color: white;
+}
+.sub button:hover
+{
+    background-color: #ff6378;
+    border: #ff6378;
+}
+.fourth
+{
+    width: 100%;
+    height: 600px;
+    
+}
+.join
+{
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0px 120px 0px;
+   
+}
+.joint
+{
+    width: 60%;
+    display: flex;
+}
+.joint img
+{
+    width: 50%;
+    height: 350px;
+    padding: 0px 15px;
+}
+.content
+{
+    width: 40%;
+    margin: auto;
+    text-align: left;
+}
+
+.content h1
+{
+    padding: 50px 20px 30px 0px;
+    font-size: 45px;
+    
+}
+.content p
+{
+    padding: 20px 70px 30px 0px ;
+    font-size: 18px;
+    color: gray;
+}
+.content button
+{
+    padding: 20px 35px;
+    background-color: #c30047;
+    border-radius: 30px;
+    border: 1px solid #c30047;
+    color: white;
+    
+    
+}
+.content button:hover
+{
+    background-color: #ff6378;
+    border: #ff6378;
+}
+footer
+{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(48,26,34,0.95);
+}
+.footer
+{
+    width: 70%;
+    margin: auto;
+    height: 520px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.one .sublist
+{
+    list-style:none;
+    color: white;
+    padding: 20px 0px;
+
+}
+.one .up
+{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.one .uplist
+{
+    list-style:none;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.footer h1
+{
+    color: white;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.footer li
+{
+
+    list-style: none;
+    padding: 20px 0px;
+    color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input
+{
+    padding: 20px 120px 20px 30px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px solid grey;
+}
+::placeholder
+{
+    color: white;
+}
+.copy 
+{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+
+}

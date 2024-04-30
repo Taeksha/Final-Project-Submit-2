@@ -1,0 +1,527 @@
+@media (max-width:480px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    .header1 {
+        width: 100%;
+        height: 40px;
+        background-color: #c30047;
+        display: none;
+    }
+
+    .header2 {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        
+    }
+
+    .header2 .main {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+     .main .menu ul 
+    {
+
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        
+        width: 30%;
+        margin: 10px auto 0px;
+    }
+
+    .logo img {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .main .menu li {
+        padding: 15px 15px;
+        font-size: 15px;
+        list-style: none;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+    }
+
+    .main .menu button {
+        padding: 20px 35px;
+        border-radius: 30px;
+        background-color: #c30047;
+        color: white;
+        border: #c30047;
+        margin: 10px 0px;
+
+    }
+
+
+    .swiper {
+      width: 100%;
+      height: 600px;
+    }
+    
+    .swiper-slide {
+     
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height:600px;
+      object-fit: cover;
+    }
+    .lax h1 
+    {
+      position: absolute;
+      top: 20%;
+      left: 15%;
+      font-size: 40px;
+      color: white;
+     
+      
+    }
+    .lax p
+    {
+      position: absolute;
+      top: 45%;
+      left: 15%;
+      font-size: 20px;
+      color: white;
+      border: none;
+      
+    }
+    
+    .yoy h1 
+    {
+      position: absolute;
+      top: 20%;
+      left:20%;
+      font-size: 40px;
+      color: white;  
+    }
+    .yoy p
+    {
+      position: absolute;
+      top: 45%;
+      left: 20%;
+      font-size: 20px;
+      color: white;
+    }
+    
+    
+    
+    .ww button
+    {
+      background-color: crimson;
+      font-size: 20px;
+      border-radius: 70px;
+      position: absolute;
+      top: 60%;
+      left: 15%;
+      color: white;
+      padding: 20px 50px;
+      border: none;
+     
+    }
+    .bb button
+    {
+      background-color: crimson;
+      font-size: 20px;
+      border-radius: 70px;
+      position: absolute;
+      top: 60%;
+      left: 20%;
+      color: white;
+      padding: 20px 50px;
+      border: none;
+    }
+    
+    
+    .banner button:hover {
+        background-color: #c30047;
+    }
+
+    .first h1 {
+        color: black;
+        text-align: center;
+        padding: 40px 0px;
+        font-size: 25px;
+    }
+
+    .help {
+        width: 100%;
+    }
+
+    .td {
+        width: 100%;
+    }
+
+    .img {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .image {
+        width: 100%;
+    }
+    .image img {
+        width: 100%;
+    }
+    .tr {
+        height: 300px;
+        width: 100%;
+        text-align: center;
+
+    }
+    .second {
+        width: 100%;
+        height: auto;
+        background-color: #f7f0f1;
+    }
+    .support {
+        padding: 55px 0px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+    .intro {
+        width: 100%;
+    }
+    .support .img {
+        width: 100%;
+    }
+    .support .img img {
+        width: 100%;
+    }
+    .intro h1 {
+        text-align: center;
+        font-size: 50px;
+        padding: 20px 0px;
+    }
+    .intro .normal {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 20px 0px 0px 20px;
+
+    }
+    .intro .special {
+        padding: 20px 0px 0px 20px;
+        font-size: 15px;
+        line-height: 30px;
+        color: grey;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .third {
+
+
+
+        width: 100%;
+    }
+
+    .third h1 {
+        text-align: center;
+        color: black;
+        padding-top: 80px;
+        font-size: 40px;
+    }
+
+    .third p {
+
+
+        font-size: 20px;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .serve {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .ct {
+        height: 300px;
+        width: 425px;
+
+    }
+    .box1 {
+        padding: 50px 30px 5px;
+        height: 460px;
+        display: block;
+    }
+    .post {
+        text-align: center;
+    }
+
+    .ct h2 {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .ct p {
+        padding: 50px 0px 20px 10px;
+        text-align: center;
+    }
+
+    .case {
+        width: 100%;
+        height: 250px;
+    }
+
+    .case img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .subcase {
+        height: 220px;
+        width: 300px;
+        background-color: white;
+        color: black;
+        border-radius: 15px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+    }
+
+    .sub {
+        width: 80%;
+        margin: auto;
+        text-align: left;
+    }
+
+    .subcase h1 {
+        font-size: 20px;
+        padding: 20px 0px 0px 0px;
+
+    }
+
+    .subcase .sedac {
+        font-size: 10px;
+        color: gray;
+        padding: 20px 0px 15px 0px;
+
+
+    }
+
+    .sub .odio {
+        font-size: 10px;
+        color: gray;
+        padding: 15px 0px 30px;
+
+    }
+
+    .sub button {
+        padding: 10px 15px;
+        background-color: #c30047;
+        border-radius: 30px;
+        border: 1px solid #c30047;
+        color: white;
+        font-size: 8px;
+
+    }
+
+    .sub button:hover {
+        background-color: #ff6378;
+        border: #ff6378;
+    }
+    .fourth
+{
+    width: 100%;
+    height: auto;
+    
+}
+.join
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0px 120px 0px;
+   
+}
+.joint
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.joint img
+{
+    width: 100%;
+    height: 400px;
+    padding-top: 25px;
+   
+}
+.content
+{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    padding: 0px 20px;
+}
+
+.content h1
+{
+    padding: 50px 20px 30px 0px;
+    font-size: 45px;
+    
+}
+.content p
+{
+    padding: 20px 0px 50px 0px;
+    font-size: 18px;
+    color: gray;
+}
+.content button
+{
+    padding: 20px 35px;
+    background-color: #c30047;
+    border-radius: 30px;
+    border: 1px solid #c30047;
+    color: white;
+    font-style: bold;
+}
+.content button:hover
+{
+    background-color: #ff6378;
+    border: #ff6378;
+}
+footer
+{
+    width: 100%;
+    height:auto;
+    background-color: #212529;
+}
+.info
+{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(237,87,112);
+    flex-direction: column;  
+}
+.subinfo
+{
+    align-items: center;
+ 
+}
+.subinfo img
+{
+    height: 70px;
+    
+}
+.subinfo  li h1
+{
+    font-size: 25px;
+
+}
+.subinfo  li
+{
+    list-style: none;
+    font-size: 18px;
+    color: white;
+   
+}
+footer
+{
+    width: 100%;
+    height: auto;
+    background-color: rgba(48,26,34,0.95);
+}
+.footer
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+footer
+{
+    width: 100%;
+    height: auto;
+    background-color: rgba(48,26,34,0.95);
+}
+.footer
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    flex-wrap: wrap;
+    
+}
+.one .uplist
+{
+    list-style:none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.footer h1
+{
+    color: white;
+    padding: 30px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.one
+{
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+.two
+{
+    width: 100%;
+    padding-left: 30px;
+}
+.three
+{
+    width: 100%;
+    padding-left: 30px;
+}
+.four
+{
+    width: 100%;
+    padding-left: 30px;
+}
+.copy 
+{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+
+}
+
+}
